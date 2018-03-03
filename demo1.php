@@ -9,9 +9,11 @@
 $a = range(0,1000);
 var_dump(memory_get_usage());
 //COW机制 Copy On Write
-$b = &$a;
+$b = $a;
 var_dump(memory_get_usage());
 
 $a = range(0,1000);
 var_dump(memory_get_usage());
 
+$a =  '1qwe' == 1;
+var_dump($a);
