@@ -6,6 +6,7 @@
  * Time: 16:36
  */
 
+phpinfo();
 $a = range(0,1000);
 var_dump(memory_get_usage());
 //COW机制 Copy On Write
