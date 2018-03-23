@@ -15,6 +15,7 @@ $b = $a;
 
 var_dump(memory_get_usage());
 
+
 $file = fopen('hello.txt','w');
 $str = phpinfo();
 fwrite($file,$str);
