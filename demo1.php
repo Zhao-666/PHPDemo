@@ -12,6 +12,7 @@ var_dump(memory_get_usage());
 //COW机制 Copy On Write
 //var_dump(memory_get_usage());
 $b = $a;
+
 var_dump(memory_get_usage());
 
 $file = fopen('hello.txt','w');
