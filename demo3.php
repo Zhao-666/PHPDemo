@@ -17,3 +17,5 @@ xdebug_debug_zval('a');
 //进行COW操作
 $a = range(0,3);
 xdebug_debug_zval('a');
+
+echo time()+3600;
